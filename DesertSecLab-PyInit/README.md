@@ -8,6 +8,12 @@ Designed for:
 - CTF
 - Exploit Development
 
+## Requirements
+
+- Linux environment
+- bash
+- pyenv (optional, required for Python2 tools)
+- Python 2.7.18 installed via pyenv
 
 ## Install
 
