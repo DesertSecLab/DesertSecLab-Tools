@@ -5,11 +5,23 @@
 #
 # Author: DesertSecLab
 
-CURRENT_DIR=$(pwd)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-echo "source $CURRENT_DIR/py-init.sh" >> ~/.bashrc
+SOURCE_LINE="source $SCRIPT_DIR/py-init.sh"
 
-echo "PyInit installed."
+
+if grep -Fxq "$SOURCE_LINE" ~/.bashrc; then
+
+    echo "PyInit is already installed."
+
+else
+
+    echo "$SOURCE_LINE" >> ~/.bashrc
+
+    echo "PyInit installed successfully."
+
+fi
+
 
 echo "Run:"
 echo "source ~/.bashrc"
