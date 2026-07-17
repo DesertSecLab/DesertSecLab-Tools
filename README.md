@@ -6,4 +6,4 @@ Personal security and productivity tools collection.
 
 ### DesertSecLab-PyInit
 
-Python environment initializer.
+Python environment initializer for security tools.
