@@ -1,6 +1,4 @@
 # PyInit
-A lightweight Bash helper for automatically preparing Python environments for security tools.
-
 Running Python-based security tools has always been frustrating. Some tools are written for Python 2, while others require Python 3. Switching between different Python versions and managing dependencies often leads to errors, conflicts, and broken environments.
 To solve this problem, I created PyInit, a lightweight Python environment initialization tool integrated into my Bash environment.
 Whenever I need to run a tool, I simply execute the `py-init` command. It automatically detects whether the tool requires Python 2 or Python 3, then activates the appropriate environment.
