@@ -63,6 +63,11 @@ Example successful output:
 ...
 ============================
 ```
+## Example
+
+The following screenshot shows the tool successfully identifying a working CLSID and port combination.
+
+![Successful Run](../successful-run.png)
 
 ## Background
 
